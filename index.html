@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte, Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Agro<span>Sustentável</span></div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#pilares">Pilares</a></li>
+                <li><a href="#sustentabilidade">Sustentabilidade</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Agro Forte, Futuro Sustentável</h1>
+            <p>O equilíbrio perfeito entre a alta produtividade e a preservação do meio ambiente.</p>
+            <a href="#pilares" class="btn-principal">Conheça Mais</a>
+        </div>
+    </section>
+
+    <section id="pilares" class="container">
+        <h2 class="titulo-secao">Os Motores do Campo</h2>
+        <div class="grid-pilares">
+            
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1592982537447-744077110b90?auto=format&fit=crop&q=80&w=600" alt="Grande plantação de soja com colheitadeira moderna representando o agronegócio">
+                <div class="card-body">
+                    <h3>Agronegócio de Alta Tecnologia</h3>
+                    <p>Responsável por abastecer mercados globais, o agronegócio moderno utiliza tecnologia de ponta, inteligência artificial e agricultura de precisão para produzir mais alimentos utilizando menos terra e recursos hídricos.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1595974482597-4b8da8879bc5?auto=format&fit=crop&q=80&w=600" alt="Agricultor familiar cuidando de horta orgânica de hortaliças">
+                <div class="card-body">
+                    <h3>Agricultura Familiar</h3>
+                    <p>A base da alimentação brasileira. Sendo responsável pela maior parte dos alimentos que chegam à mesa das famílias, ela promove o desenvolvimento regional, a biodiversidade e técnicas tradicionais de cultivo ecológico.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="sustentabilidade" class="sustentabilidade-secao">
+        <div class="container">
+            <h2 class="titulo-secao">Práticas Sustentáveis no Campo</h2>
+            <p class="subtitulo">Clique nos botões abaixo para ver como o campo protege o meio ambiente:</p>
+            
+            <div class="Abas-container">
+                <div class="botoes-abas">
+                    <button class="btn-aba ativo" onclick="mudarAba('plantio')">Plantio Direto</button>
+                    <button class="btn-aba" onclick="mudarAba('energia')">Energia Limpa</button>
+                    <button class="btn-aba" onclick="mudarAba('reuso')">Reuso de Água</button>
+                </div>
+
+                <div id="conteudo-aba" class="conteudo-aba">
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Agro Forte, Futuro Sustentável. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
